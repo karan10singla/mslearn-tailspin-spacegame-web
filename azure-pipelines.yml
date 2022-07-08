@@ -1,8 +1,8 @@
 trigger:
   - '*'
   
-pool:
-  vmImage: 'ubuntu-20.04'
+pool: 
+  name: test pool
   demands:
   - npm
   
