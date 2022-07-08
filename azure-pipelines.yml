@@ -3,8 +3,6 @@ trigger:
   
 pool: 
   name: test pool
-  demands:
-  - npm
   
 variables:
   buildConfiguration: 'Release'
